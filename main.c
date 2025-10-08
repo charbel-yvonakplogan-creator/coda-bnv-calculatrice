@@ -6,6 +6,10 @@ int main(){
     int x;
     int y;
 
+    printf("Bonjour cher utilisateur-ice.\n");
+
+    printf("Choisissez une opération : +, -, *, /, %% : \n");
+    scanf(" %c , &symbol");
 
 
 
