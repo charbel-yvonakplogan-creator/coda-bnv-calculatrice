@@ -2,9 +2,14 @@
 #include <stdio.h>
 
 int main(){
+    char symbol;
+    int x;
+    int y;
 
 
-ext(0);
+
+
+exit(0);
 
 
 }
