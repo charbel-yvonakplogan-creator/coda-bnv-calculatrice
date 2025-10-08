@@ -23,19 +23,23 @@ int main(){
 
     {
         printf("%d + %d = %d\n", x, y, x + y);
-        resultat = x + y;
+       
+ 
     }
     else if(symbol == '-')
 
     {
         printf("%d - %d = %d\n", x, y, x - y);
-        resultat = x - y;
+       
+        
     }
     else if(symbol == '*')
     
     {
         printf("%d * %d = %d\n", x, y, x * y);
-        resultat = x * y;
+      
+
+    
     }
     else if(symbol == '/')
 {
@@ -45,7 +49,8 @@ int main(){
         }
         division = (double)x / (double)y;
         printf("%d / %d = %.2f\n", x, y , division);
-        double resultat = x / y;    
+       
+    
     }
     else if(symbol == '%'){
         if (y == 0){
@@ -54,7 +59,7 @@ int main(){
         }  
     
             printf("%d %% %d = %d\n", x, y, x % y);
-        resultat = x % y;
+    
  }
         
     else{
